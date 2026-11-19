@@ -16,7 +16,7 @@ The game folder on the PC is not changed either.
 
 ## 1. Open the installer
 
-Extract the package anywhere and open **`Install.exe`**. Keep the `aplicativos` folder next to it.
+Extract the package anywhere and open **`Install.exe`**. Keep the `NRO FILES` folder next to it.
 
 The window opens in English; the box in the top right corner switches it to Portuguese.
 

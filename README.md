@@ -22,7 +22,7 @@ Version 1.0 (test release). Two apps, which can live side by side on the SD card
 ## Install
 
 1. Download this repository (**Code → Download ZIP**) and extract it.
-2. Open **`Install.exe`** (keep the `aplicativos` folder next to it). It opens in English; the box in the top
+2. Open **`Install.exe`** (keep the `NRO FILES` folder next to it). It opens in English; the box in the top
    right corner switches it to Portuguese.
 3. Check the game folder, tick the Community Edition if you want it, pick the destination (the SD card or a
    folder on the PC) and click **Install**.

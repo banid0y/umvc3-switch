@@ -22,7 +22,7 @@ Versão 1.0 (versão de teste). São dois aplicativos, que podem ficar juntos no
 ## Como instalar
 
 1. Baixe este repositório (**Code → Download ZIP**) e extraia.
-2. Abra **`Install.exe`** (mantenha a pasta `aplicativos` ao lado dele). Ele abre em inglês; a caixa no canto
+2. Abra **`Install.exe`** (mantenha a pasta `NRO FILES` ao lado dele). Ele abre em inglês; a caixa no canto
    superior direito troca para português.
 3. Confira a pasta do jogo, marque a Community Edition se quiser, escolha o destino (o cartão SD ou uma pasta do
    PC) e clique em **Instalar**.

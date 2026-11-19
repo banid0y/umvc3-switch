@@ -18,7 +18,7 @@ Nada neste processo mexe no firmware, na NAND ou nas partições do cartão: sã
 
 ## 1. Abrir o instalador
 
-Extraia o pacote numa pasta qualquer e abra **`Install.exe`**. Mantenha a pasta `aplicativos` ao lado dele.
+Extraia o pacote numa pasta qualquer e abra **`Install.exe`**. Mantenha a pasta `NRO FILES` ao lado dele.
 
 A janela abre em inglês. Para português, escolha **Português** na caixa do canto superior direito.
 

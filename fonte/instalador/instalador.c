@@ -5,7 +5,7 @@
 //    instalador), roda a linha de comando dele numa CÓPIA do umvc3.exe em pasta temporária e confere o resultado.
 //    O Steamless não é distribuído nem modificado aqui (licença CC BY-NC-ND 4.0, atom0s); a pasta do jogo não é tocada;
 //  - o compilador de shaders (uam), os ícones de botão e a configuração padrão embutidos no .exe (instalador.rc);
-//  - os aplicativos: todo .nro da pasta aplicativos\ ao lado do instalador vai para switch\ no destino;
+//  - os aplicativos: todo .nro da pasta "NRO FILES" ao lado do instalador vai para switch\ no destino;
 //  - dois idiomas: abre em inglês; o seletor no canto da janela troca para português na hora; --lang pt|en força um.
 //
 //   Instalador.exe                       abre a janela
@@ -193,7 +193,7 @@ static void install_run(void)
         if (!wr(q, d, n)) die(T("não consegui gravar no destino. O cartão está cheio ou protegido?", "could not write to the destination. Is the card full or write-protected?"));
     }
     int napps = 0;
-    { wchar_t ad[1024], pat[1024], sw[1024]; join(ad, self, L"aplicativos"); join(pat, ad, L"*.nro"); join(sw, out, L"switch");
+    { wchar_t ad[1024], pat[1024], sw[1024]; join(ad, self, L"NRO FILES"); if (!exists(ad)) join(ad, self, L"aplicativos"); join(pat, ad, L"*.nro"); join(sw, out, L"switch");
       WIN32_FIND_DATAW fd; HANDLE h = FindFirstFileW(pat, &fd);
       if (h != INVALID_HANDLE_VALUE) { mkdirs(sw);
           do { if (!g_with_ce && !_wcsicmp(fd.cFileName, L"umvc3-ce.nro")) continue;   // sem a CE instalada, a NRO da CE não vai
@@ -201,8 +201,8 @@ static void install_run(void)
           } while (FindNextFileW(h, &fd));
           FindClose(h); } }
     join(p, self, L"sdcard"); if (exists(p)) { g_copied = g_total = 0; tree(p, out, 1); tree(p, out, 0); }
-    if (!napps) say(T("  (nenhum aplicativo .nro na pasta \"aplicativos\" ao lado do instalador: copie o .nro para a pasta switch do destino)\n",
-                      "  (no .nro app in the \"aplicativos\" folder next to the installer: copy the .nro into the switch folder at the destination)\n"));
+    if (!napps) say(T("  (nenhum aplicativo .nro na pasta \"NRO FILES\" ao lado do instalador: copie o .nro para a pasta switch do destino)\n",
+                      "  (no .nro app in the \"NRO FILES\" folder next to the installer: copy the .nro into the switch folder at the destination)\n"));
 
     // 4. CE
     g_stage = 4;
