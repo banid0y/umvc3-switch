@@ -1,0 +1,42 @@
+// Recursos embutidos no Instalador.exe. Caminhos relativos à pasta de montagem (lab/instalador_build.sh).
+// Ícone da janela e do arquivo, manifesto (controles visuais novos, DPI, sem pedir administrador) e dados de versão
+1 ICON "instalador.ico"
+1 24 "instalador.manifest"
+1 VERSIONINFO
+FILEVERSION 1,0,0,0
+PRODUCTVERSION 1,0,0,0
+FILEOS 0x40004
+FILETYPE 0x1
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "040904B0"
+    BEGIN
+      VALUE "CompanyName", "UMvC3 Switch port"
+      VALUE "FileDescription", "UMvC3 on Switch installer"
+      VALUE "FileVersion", "1.0.0.0"
+      VALUE "InternalName", "Instalador"
+      VALUE "OriginalFilename", "Instalador.exe"
+      VALUE "ProductName", "UMvC3 on Switch"
+      VALUE "ProductVersion", "1.0"
+    END
+  END
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x409, 1200
+  END
+END
+// 100: compilador de shaders do devkitPro (uam; licença zlib + MIT do Mesa, texto em 101)
+100 RCDATA "ferramentas/uam.exe"
+101 RCDATA "ferramentas/LICENCA-uam.txt"
+// 110-115: ícones de botão do Switch e a troca parcial da barra do menu (sem dados do jogo)
+110 RCDATA "sdcard/umvc3/texturas/indice.txt"
+111 RCDATA "sdcard/umvc3/texturas/CREDITOS.txt"
+112 RCDATA "sdcard/umvc3/texturas/9befc1f7fc3908ab.bin"
+113 RCDATA "sdcard/umvc3/texturas/af638d8670f646d5.bin"
+114 RCDATA "sdcard/umvc3/texturas/c7987b2262934b67.bin"
+115 RCDATA "sdcard/umvc3/texturas/c50d09005c484509.bin"
+// 130: tabela de conferência dos shaders compilados (tools/dksh_expected.py; só hashes)
+130 RCDATA "dksh_esperado.bin"
+// 120: configuração gráfica padrão (vai para userdata e userdata-ce se ainda não existir)
+120 RCDATA "config.ini"
