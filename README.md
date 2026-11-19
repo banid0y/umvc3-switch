@@ -10,14 +10,14 @@ Version 1.0 (test release). Two apps, which can live side by side on the SD card
 | Homebrew Menu name | File | What it is |
 |---|---|---|
 | (BASE) ULTIMATE MARVEL VS CAPCOM 3 | `umvc3.nro` | The original game |
-| (CE) ULTIMATE MARVEL VS CAPCOM 3 | `umvc3-ce.nro` | The game with the Community Edition (also needs your own copy of the CE build) |
+| (CE) ULTIMATE MARVEL VS CAPCOM 3 | `umvc3-ce.nro` | The game with the Community Edition **1.2.3b** (also needs your own copy of that CE build) |
 
 ## What you need
 
 - A Switch with **Atmosphère** and the **Homebrew Menu**.
 - Ultimate Marvel vs. Capcom 3 installed from **Steam** on a PC with Windows 10 or 11.
 - Free space on the SD card: about **4 GB** for the original game, **13 GB** with the Community Edition.
-- For the CE version: your "UMvC3 Community Edition Build" folder.
+- For the CE version: your "UMvC3 Community Edition Build" folder, version **1.2.3b** (the only one supported).
 
 ## Install
 
@@ -48,6 +48,12 @@ Em português: [LEIAME.md](LEIAME.md).
 
 `fonte/` holds the installer's source code and the small tools used to build its data. The installer embeds the
 deko3d shader compiler `uam` from devkitPro (license in `docs/LICENCA-uam.txt`).
+
+## License
+
+See [LICENSE.md](LICENSE.md): you may download, run, study and privately modify the port's own code and texts;
+publishing changes or reusing them elsewhere needs the author's permission first (open an issue to ask).
+Release notes: [CHANGELOG.md](CHANGELOG.md).
 
 ## Credits
 

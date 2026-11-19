@@ -9,7 +9,7 @@ Total time: 10 to 30 minutes, most of it copying files to the SD card.
 - [ ] Free space on the SD card: 4 GB (original game) or 13 GB (with the Community Edition).
 - [ ] A way to put files on the card: a card reader (fastest), or FTP/MTP from the Switch itself.
 - [ ] Internet on the PC the first time (the installer downloads a small tool, Steamless).
-- [ ] For the CE version only: your "UMvC3 Community Edition Build" folder.
+- [ ] For the CE version only: your "UMvC3 Community Edition Build" folder, **version 1.2.3b** (the only one supported).
 
 Nothing here touches firmware, NAND or SD partitions: only files under `switch/` and `umvc3/` on the SD card.
 The game folder on the PC is not changed either.
@@ -27,7 +27,8 @@ If Windows warns about an unknown program, choose "More info" and "Run anyway".
 1. **Game folder:** the installer fills in the default Steam folder. If your game lives elsewhere, click
    "Browse..." and pick the "ULTIMATE MARVEL VS. CAPCOM 3" folder.
 2. **Community Edition (optional):** tick the box and pick your "UMvC3 Community Edition Build" folder. Leave it
-   unticked to install the original game only.
+   unticked to install the original game only. If your CE is not 1.2.3b, the installer says so and installs the
+   original game only.
 3. **Destination:** pick the SD card (if it is in a reader) or any folder on the PC.
 4. Click **Install**.
 5. **Steamless:** the Steam `umvc3.exe` is wrapped in a protection layer the port cannot read. The first time,

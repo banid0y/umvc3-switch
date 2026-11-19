@@ -10,14 +10,14 @@ Versão 1.0 (versão de teste). São dois aplicativos, que podem ficar juntos no
 | Nome no Homebrew Menu | Arquivo | O que é |
 |---|---|---|
 | (BASE) ULTIMATE MARVEL VS CAPCOM 3 | `umvc3.nro` | O jogo original |
-| (CE) ULTIMATE MARVEL VS CAPCOM 3 | `umvc3-ce.nro` | O jogo com a Community Edition (precisa também da sua cópia da CE) |
+| (CE) ULTIMATE MARVEL VS CAPCOM 3 | `umvc3-ce.nro` | O jogo com a Community Edition **1.2.3b** (precisa também da sua cópia dessa CE) |
 
 ## O que você precisa
 
 - Um Switch com **Atmosphère** e o **Homebrew Menu**.
 - Ultimate Marvel vs. Capcom 3 instalado pela **Steam** num PC com Windows 10 ou 11.
 - Espaço no cartão SD: cerca de **4 GB** para o jogo original, **13 GB** com a Community Edition.
-- Para a versão com CE: a pasta "UMvC3 Community Edition Build".
+- Para a versão com CE: a pasta "UMvC3 Community Edition Build", versão **1.2.3b** (a única suportada).
 
 ## Como instalar
 
@@ -46,6 +46,12 @@ Opções: [docs/OPCOES.md](docs/OPCOES.md) · Problemas: [docs/PROBLEMAS.md](doc
 
 `fonte/` tem o código do instalador e as pequenas ferramentas que geram os dados dele. O instalador leva embutido
 o compilador de shaders `uam`, do devkitPro (licença em `docs/LICENCA-uam.txt`).
+
+## Licença
+
+Veja [LICENSE.md](LICENSE.md): você pode baixar, rodar, estudar e modificar para uso próprio o código e os textos
+do port; publicar mudanças ou reaproveitá-los em outro lugar exige pedir autorização ao autor antes (abra uma
+*issue* para pedir). Notas da versão: [CHANGELOG.md](CHANGELOG.md).
 
 ## Créditos
 

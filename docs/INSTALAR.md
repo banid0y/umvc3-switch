@@ -11,7 +11,7 @@ Confira que você tem:
 - [ ] Cartão SD com espaço livre: 4 GB (jogo original) ou 13 GB (com a Community Edition).
 - [ ] Um jeito de pôr arquivos no cartão: leitor de cartão no PC (mais rápido), ou FTP/MTP pelo próprio Switch.
 - [ ] Internet no PC na primeira vez (o instalador baixa uma ferramenta pequena, o Steamless).
-- [ ] Só para a versão com CE: a pasta "UMvC3 Community Edition Build".
+- [ ] Só para a versão com CE: a pasta "UMvC3 Community Edition Build" da **versão 1.2.3b** (a única suportada).
 
 Nada neste processo mexe no firmware, na NAND ou nas partições do cartão: são apenas arquivos nas pastas
 `switch/` e `umvc3/` do SD. A pasta do jogo no PC também não é alterada.
@@ -29,7 +29,8 @@ Se o Windows avisar que o programa é desconhecido, escolha "Mais informações"
 1. **Pasta do jogo:** o instalador já preenche com a pasta padrão da Steam. Se o seu jogo estiver em outro lugar,
    clique em "Procurar..." e escolha a pasta "ULTIMATE MARVEL VS. CAPCOM 3".
 2. **Community Edition (opcional):** marque a caixa e escolha a pasta "UMvC3 Community Edition Build". Deixe
-   desmarcada para instalar só o jogo original.
+   desmarcada para instalar só o jogo original. Se a sua CE não for a 1.2.3b, o instalador avisa e instala só o
+   jogo original.
 3. **Destino:** escolha o cartão SD (se ele estiver no leitor) ou uma pasta do PC.
 4. Clique em **Instalar**.
 5. **Steamless:** o `umvc3.exe` da Steam vem com uma proteção que o port não consegue ler. Na primeira vez o

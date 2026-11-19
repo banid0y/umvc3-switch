@@ -22,6 +22,7 @@
 #define SL_URL L"https://github.com/atom0s/Steamless/releases/download/v3.1.0.5/Steamless.v3.1.0.5.-.by.atom0s.zip"
 #define SL_ZIP_SHA "e3e2d22e098ff3fb359b2876aa2bed9596f0501e6ff588cbffae90a76d2dc4f5"
 #define TITLE (g_en ? L"UMvC3 on Switch" : L"UMvC3 no Switch")
+#define CE_VER "1.2.3b"   // versão da Community Edition suportada
 #define STEAM_DEF L"C:\\Program Files (x86)\\Steam\\steamapps\\common\\ULTIMATE MARVEL VS. CAPCOM 3"
 
 // ---- recursos embutidos (instalador.rc) ----
@@ -166,12 +167,12 @@ static void install_run(void)
         g_with_ce = 1;
         for (int i = 0; i < 4; i++) { join(p, ce, CE[i].name); sha_file(p, hex);
             if (strcmp(hex, CE[i].sha)) {
-                say(T("  A sua Community Edition é de uma versão diferente da suportada (%ls): só o jogo original será instalado.\n",
-                      "  Your Community Edition is a different version from the supported one (%ls): only the original game will be installed.\n"), CE[i].name); g_with_ce = 0;
-                if (!g_yes) box(T("A sua Community Edition é de uma versão diferente da suportada por este port.\n\nVou instalar só o jogo original.",
-                                  "Your Community Edition is a different version from the one this port supports.\n\nOnly the original game will be installed."), MB_OK | MB_ICONWARNING);
+                say(T("  A sua Community Edition não é a versão " CE_VER ", a suportada (%ls): só o jogo original será instalado.\n",
+                      "  Your Community Edition is not version " CE_VER ", the supported one (%ls): only the original game will be installed.\n"), CE[i].name); g_with_ce = 0;
+                if (!g_yes) box(T("A sua Community Edition não é a versão " CE_VER ", a única suportada por este port.\n\nVou instalar só o jogo original.",
+                                  "Your Community Edition is not version " CE_VER ", the only one this port supports.\n\nOnly the original game will be installed."), MB_OK | MB_ICONWARNING);
                 break; } }
-        if (g_with_ce) say(T("  Community Edition da versão suportada\n", "  Community Edition is the supported version\n"));
+        if (g_with_ce) say(T("  Community Edition da versão suportada (" CE_VER ")\n", "  Community Edition is the supported version (" CE_VER ")\n"));
     }
 
     join(um, out, L"umvc3"); mkdirs(um);
@@ -249,7 +250,7 @@ static void apply_texts(void)
     SetWindowTextW(g_wnd, g_en ? L"UMvC3 on Switch: installer" : L"UMvC3 no Switch: instalador");
     set_text(ID_SUB, T("Instalação no Nintendo Switch, a partir da sua cópia do jogo na Steam. Versão 1.0.", "Install on the Nintendo Switch, from your own copy of the game on Steam. Version 1.0."));
     set_text(ID_L_GAME, T("Pasta do jogo (Steam)", "Game folder (Steam)"));
-    set_text(ID_CE_CHK, T("Instalar também a Community Edition (pasta \"UMvC3 Community Edition Build\")", "Also install the Community Edition (\"UMvC3 Community Edition Build\" folder)"));
+    set_text(ID_CE_CHK, T("Instalar também a Community Edition " CE_VER " (pasta \"UMvC3 Community Edition Build\")", "Also install the Community Edition " CE_VER " (\"UMvC3 Community Edition Build\" folder)"));
     set_text(ID_L_OUT, T("Destino: o cartão SD do Switch ou uma pasta do PC", "Destination: the Switch SD card or a folder on the PC"));
     set_text(ID_GAME_B, T("Procurar...", "Browse...")); set_text(ID_CE_B, T("Procurar...", "Browse...")); set_text(ID_OUT_B, T("Procurar...", "Browse..."));
     set_text(ID_GO, T("Instalar", "Install"));
