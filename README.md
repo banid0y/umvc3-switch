@@ -2,6 +2,17 @@
 
 Unofficial port of **Ultimate Marvel vs. Capcom 3** (PC / Steam version) to Nintendo Switch running Atmosphère.
 
+## Running on real hardware
+
+Photo and video taken on a Switch OLED running this port (Community Edition build).
+
+![The Community Edition title screen running on a Switch OLED](media/switch-title-screen.jpg)
+
+[![Gameplay on the Switch (click for the full video with sound)](media/switch-gameplay-preview.gif)](media/switch-gameplay.mp4)
+
+Full video (57 s, character select and a match, with the port's FPS overlay on screen):
+[media/switch-gameplay.mp4](media/switch-gameplay.mp4).
+
 **You need your own copy of the game on Steam.** The game data is not included here: the installer builds
 everything the Switch needs from your own installation.
 
