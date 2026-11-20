@@ -1,0 +1,2 @@
+Icones: "Switch Button icons [Essential pack]" (c) 2023 Gioele Casazza, CC BY 4.0 (http://creativecommons.org/licenses/by/4.0/), montados num atlas 256x256.
+c50d09005c484509.bin: troca parcial da barra do menu principal (quatro botoes direcionais), desenhada pelo port (tools/dpad_bar_patch.py); sem dados do jogo nem do pacote de icones.

@@ -46,8 +46,9 @@ Em português: [LEIAME.md](LEIAME.md).
 
 ## Source
 
-`fonte/` holds the installer's source code and the small tools used to build its data. The installer embeds the
-deko3d shader compiler `uam` from devkitPro (license in `docs/LICENCA-uam.txt`).
+`source/` holds the complete source code of the installer, a build script and a description of every step it performs
+(see [source/README.md](source/README.md)). The installer embeds the deko3d shader compiler `uam` from devkitPro
+(license in `docs/LICENCA-uam.txt`).
 
 ## License
 

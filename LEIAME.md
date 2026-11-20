@@ -44,7 +44,7 @@ Opções: [docs/OPCOES.md](docs/OPCOES.md) · Problemas: [docs/PROBLEMAS.md](doc
 
 ## Código-fonte
 
-`fonte/` tem o código do instalador e as pequenas ferramentas que geram os dados dele. O instalador leva embutido
+`source/` tem o código do instalador e as pequenas ferramentas que geram os dados dele. O instalador leva embutido
 o compilador de shaders `uam`, do devkitPro (licença em `docs/LICENCA-uam.txt`).
 
 ## Licença

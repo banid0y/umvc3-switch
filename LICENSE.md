@@ -5,7 +5,7 @@ Copyright (c) 2026 banid0y. Todos os direitos reservados, com as permissões aba
 
 ## English
 
-**What this covers.** The code and texts written for this port: the installer source in `fonte/`, the guides in
+**What this covers.** The code and texts written for this port: the installer source in `source/`, the guides in
 `docs/`, and the README files.
 
 **What it does not cover.** Ultimate Marvel vs. Capcom 3 (Capcom / Marvel), the Community Edition (its team), the
@@ -32,7 +32,7 @@ Permission is given case by case, and the author's written reply in the issue is
 ## Português
 
 **O que esta licença cobre.** O código e os textos escritos para este port: o código-fonte do instalador em
-`fonte/`, os guias em `docs/` e os arquivos README/LEIAME.
+`source/`, os guias em `docs/` e os arquivos README/LEIAME.
 
 **O que ela não cobre.** Ultimate Marvel vs. Capcom 3 (Capcom / Marvel), a Community Edition (da equipe dela), o
 compilador de shaders `uam` (devkitPro, ver `docs/LICENCA-uam.txt`), o Steamless (atom0s) e os ícones de botão
