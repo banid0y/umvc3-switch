@@ -1,0 +1,99 @@
+name: Performance / lag report
+description: The game runs slow, stutters or drops frames
+title: "[Performance] "
+labels: ["performance"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting. So far the port has only been measured on one Switch OLED, so your log is what tells us where the time goes.
+
+        **Please attach the log file.** It is on your SD card at `umvc3/host-nx.log`, rewritten on every launch
+        (the three previous sessions are kept as `host-nx-NN.log`). Copy it right after a laggy session, before opening the game again.
+        The log holds performance numbers and port messages (in Portuguese); it has no account or personal data.
+  - type: dropdown
+    id: model
+    attributes:
+      label: Console model
+      options:
+        - Switch V1 (Erista, 2017)
+        - Switch V2 (Mariko, 2019)
+        - Switch Lite
+        - Switch OLED
+    validations:
+      required: true
+  - type: dropdown
+    id: mode
+    attributes:
+      label: How were you playing?
+      options:
+        - Handheld
+        - Docked
+        - Both
+    validations:
+      required: true
+  - type: dropdown
+    id: version
+    attributes:
+      label: Which app?
+      options:
+        - (BASE) original game
+        - (CE) Community Edition
+        - Both
+    validations:
+      required: true
+  - type: input
+    id: port
+    attributes:
+      label: Port version
+      description: Shown next to the app name in the Homebrew Menu
+      placeholder: "1.0"
+    validations:
+      required: true
+  - type: input
+    id: system
+    attributes:
+      label: Firmware and Atmosphère version
+      placeholder: "FW 19.0.1, Atmosphère 1.8.0"
+  - type: dropdown
+    id: launch
+    attributes:
+      label: How do you open the game?
+      options:
+        - Homebrew Menu, holding R on a game
+        - Forwarder on the HOME Menu
+        - Homebrew Menu from the Album
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: clock
+    attributes:
+      label: sys-clk or any overclock / underclock module?
+      description: If yes, say which and the profile in use. "No" if none.
+    validations:
+      required: true
+  - type: input
+    id: sd
+    attributes:
+      label: SD card
+      description: Size and format (FAT32 or exFAT), if you know
+      placeholder: "256 GB, FAT32"
+  - type: textarea
+    id: where
+    attributes:
+      label: Where does it lag?
+      description: Menus, character select, fights, supers, a specific stage or character... Always, or only sometimes?
+    validations:
+      required: true
+  - type: textarea
+    id: log
+    attributes:
+      label: Log file
+      description: Drag `umvc3/host-nx.log` here (zip it if GitHub refuses the file). A short video also helps.
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        Optional: create `umvc3/ovl_fps.txt` containing `1` to show the frame counter on screen, and tell us the numbers you see.

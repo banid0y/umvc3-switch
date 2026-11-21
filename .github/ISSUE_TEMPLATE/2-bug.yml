@@ -1,0 +1,66 @@
+name: Crash or bug
+description: The game closes, freezes, or something looks or behaves wrong
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Please attach the log file** from your SD card: `umvc3/host-nx.log`, rewritten on every launch
+        (the three previous sessions are kept as `host-nx-NN.log`). Copy it right after the problem, before opening the game again.
+        It holds port messages (in Portuguese) and no account or personal data.
+  - type: dropdown
+    id: model
+    attributes:
+      label: Console model
+      options:
+        - Switch V1 (Erista, 2017)
+        - Switch V2 (Mariko, 2019)
+        - Switch Lite
+        - Switch OLED
+    validations:
+      required: true
+  - type: dropdown
+    id: version
+    attributes:
+      label: Which app?
+      options:
+        - (BASE) original game
+        - (CE) Community Edition
+        - Both
+    validations:
+      required: true
+  - type: input
+    id: port
+    attributes:
+      label: Port version
+      placeholder: "1.0"
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What happened?
+      options:
+        - Closed back to the Homebrew Menu / HOME
+        - Froze (had to power off)
+        - Error screen
+        - Wrong image
+        - Controls or sound
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: What were you doing?
+      description: Game mode, characters on both teams, stage, and what you pressed right before it happened.
+    validations:
+      required: true
+  - type: textarea
+    id: log
+    attributes:
+      label: Log file, screenshot or video
+      description: Drag `umvc3/host-nx.log` here (zip it if GitHub refuses the file).
+    validations:
+      required: true
