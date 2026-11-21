@@ -54,6 +54,10 @@ Em português: [LEIAME.md](LEIAME.md).
   to a **copy** of your executable. Your game folder is never changed.
 - Nothing here touches firmware, NAND or SD partitions: only files under `switch/` and `umvc3/` on the SD card.
 - Open the Homebrew Menu through a game (hold R), not through the Album: from the Album there is not enough memory.
+- No overclock is needed. If you use sys-clk or another clock module, make sure it is not lowering the clocks for
+  the Homebrew Menu or the game you launch it through, or everything gets choppy. Details in
+  [docs/TROUBLESHOOTING.md](docs/TROUBLESHOOTING.md).
+- So far the port has been measured on a single Switch OLED; reports from other models are welcome.
 
 ## Source
 

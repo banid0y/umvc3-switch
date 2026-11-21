@@ -52,6 +52,10 @@ Opções: [docs/OPCOES.md](docs/OPCOES.md) · Problemas: [docs/PROBLEMAS.md](doc
   executável. A pasta do jogo nunca é alterada.
 - Nada aqui mexe no firmware, na NAND ou nas partições do cartão: só arquivos em `switch/` e `umvc3/` no SD.
 - Abra o Homebrew Menu por um jogo (segurando R), não pelo Álbum: pelo Álbum não há memória suficiente.
+- Não precisa de overclock. Se você usa o sys-clk ou outro módulo de clock, confira se ele não está baixando os
+  clocks para o Homebrew Menu ou para o jogo pelo qual você o abre, senão tudo fica travando. Detalhes em
+  [docs/PROBLEMAS.md](docs/PROBLEMAS.md).
+- Até agora o port foi medido em um único Switch OLED; relatos de outros modelos são bem-vindos.
 
 ## Código-fonte
 
