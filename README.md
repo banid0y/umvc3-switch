@@ -40,7 +40,8 @@ Version 1.0 (test release). Two apps, which can live side by side on the SD card
 4. If you did not install straight to the card, copy the `switch` and `umvc3` folders to the root of the SD card.
 5. On the Switch, **hold R while opening any game** to enter the Homebrew Menu, then pick the app.
 
-Full guide: [docs/INSTALL.md](docs/INSTALL.md) · Controls: [docs/CONTROLS.md](docs/CONTROLS.md) ·
+Full guide: [docs/INSTALL.md](docs/INSTALL.md) · Updating: [docs/UPDATE.md](docs/UPDATE.md) ·
+Controls: [docs/CONTROLS.md](docs/CONTROLS.md) ·
 Options: [docs/OPTIONS.md](docs/OPTIONS.md) · Problems: [docs/TROUBLESHOOTING.md](docs/TROUBLESHOOTING.md)
 
 Em português: [LEIAME.md](LEIAME.md).

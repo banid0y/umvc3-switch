@@ -71,6 +71,7 @@ Copy the `switch` and `umvc3` folders to the **root** of the SD card, merging wi
 
 For a new version of the port, just replace the `.nro` files under `switch/`. Game data, shaders and saves stay.
 Release notes say when shaders must be rebuilt: run the installer again.
+Step by step: [UPDATE.md](UPDATE.md).
 
 ## Uninstalling
 

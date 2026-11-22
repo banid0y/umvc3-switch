@@ -40,7 +40,8 @@ Versão 1.0 (versão de teste). São dois aplicativos, que podem ficar juntos no
 4. Se não instalou direto no cartão, copie as pastas `switch` e `umvc3` para a raiz do cartão SD.
 5. No Switch, **segure R ao abrir um jogo qualquer** para entrar no Homebrew Menu e escolha o aplicativo.
 
-Guia completo: [docs/INSTALAR.md](docs/INSTALAR.md) · Controles: [docs/CONTROLES.md](docs/CONTROLES.md) ·
+Guia completo: [docs/INSTALAR.md](docs/INSTALAR.md) · Atualizar: [docs/ATUALIZAR.md](docs/ATUALIZAR.md) ·
+Controles: [docs/CONTROLES.md](docs/CONTROLES.md) ·
 Opções: [docs/OPCOES.md](docs/OPCOES.md) · Problemas: [docs/PROBLEMAS.md](docs/PROBLEMAS.md)
 
 ## Bom saber

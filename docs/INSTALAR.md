@@ -73,6 +73,7 @@ Copie as pastas `switch` e `umvc3` para a **raiz** do cartão SD, mesclando com 
 
 Para uma versão nova do port, basta trocar os arquivos `.nro` em `switch/`. Os dados do jogo, shaders e saves ficam.
 Quando uma versão precisar de shaders novos, as notas da versão avisam: rode o instalador de novo.
+Passo a passo: [ATUALIZAR.md](ATUALIZAR.md).
 
 ## Desinstalar
 
