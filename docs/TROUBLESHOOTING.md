@@ -26,6 +26,8 @@
 
 ## Sending a report
 
+Step by step: [REPORTING.md](REPORTING.md).
+
 Attach the `umvc3/host-nx.log` file from the card (it is rewritten on every launch; the three previous ones stay
 as `host-nx-NN.log`). Say which of the two versions you opened, which screen you were on and what you pressed.
 The log itself is written in Portuguese.

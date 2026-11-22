@@ -44,6 +44,8 @@ Full guide: [docs/INSTALL.md](docs/INSTALL.md) · Updating: [docs/UPDATE.md](doc
 Controls: [docs/CONTROLS.md](docs/CONTROLS.md) ·
 Options: [docs/OPTIONS.md](docs/OPTIONS.md) · Problems: [docs/TROUBLESHOOTING.md](docs/TROUBLESHOOTING.md)
 
+**Lag, crash or something not working?** Send your log file: [docs/REPORTING.md](docs/REPORTING.md).
+
 Em português: [LEIAME.md](LEIAME.md).
 
 ## Good to know

@@ -26,5 +26,7 @@
 
 ## Como mandar um relatório
 
+Passo a passo: [RELATAR.md](RELATAR.md).
+
 Anexe o arquivo `umvc3/host-nx.log` do cartão (ele é regravado a cada abertura; os três anteriores ficam como
 `host-nx-NN.log`). Diga qual das duas versões você abriu, em que tela estava e o que apertou.

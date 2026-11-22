@@ -44,6 +44,8 @@ Guia completo: [docs/INSTALAR.md](docs/INSTALAR.md) · Atualizar: [docs/ATUALIZA
 Controles: [docs/CONTROLES.md](docs/CONTROLES.md) ·
 Opções: [docs/OPCOES.md](docs/OPCOES.md) · Problemas: [docs/PROBLEMAS.md](docs/PROBLEMAS.md)
 
+**Lentidão, travamento ou algo que não funciona?** Envie o seu arquivo de log: [docs/RELATAR.md](docs/RELATAR.md).
+
 ## Bom saber
 
 - O `Install.exe` não tem assinatura digital, então o Windows mostra o aviso de "editor desconhecido": escolha
